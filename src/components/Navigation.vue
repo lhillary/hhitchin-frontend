@@ -2,7 +2,7 @@
     <header class="lh-header">
      <div class="lh-logo">
             <router-link to="/">
-                <span class="text-logo">L&H</span>
+                <span class="text-logo">L&D</span>
             </router-link>
         </div>
         <div class="lh-header-container">
