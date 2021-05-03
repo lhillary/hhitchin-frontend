@@ -1,0 +1,60 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 4080526, 2021-05-02T23:48:50-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: DidotLTPro-BoldItalic by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/didot/pro-bold-italic/
+ * Copyright: Copyright &amp;#x00A9; 2012 Linotype GmbH, www.linotype.com. All rights reserved. This font software may not be reproduced, modified, disclosed or transferred without the express written approval of Linotype GmbH. Linotype Didot is a trademark of Linotype Gmb
+ * 
+ * Webfont: DidotLTPro-Roman by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/didot/linotype-didot-pro-roman/
+ * Copyright: Copyright &amp;#x00A9; 2013 Monotype GmbH. All rights reserved.
+ * 
+ * Webfont: DidotLTPro-Italic by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/didot/pro-italic/
+ * Copyright: Copyright &amp;#x00A9; 2013 Monotype GmbH. All rights reserved.
+ * 
+ * Webfont: DidotLTPro-Bold by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/didot/pro-bold/
+ * Copyright: Copyright &amp;#x00A9; 2013 Monotype GmbH. All rights reserved.
+ * 
+ * Webfont: DidotLTPro-Headline by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/didot/pro-headline-roman/
+ * Copyright: Copyright &amp;#x00A9; 2013 Monotype GmbH. All rights reserved.
+ * 
+ * 
+ * 
+ * © 2021 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/3e438e");
+  
+@font-face {
+  font-family: "DidotLTPro-BoldItalic";
+  src: url('../webFonts/DidotLTProBoldItalic/font.woff2') format('woff2'), url('../webFonts/DidotLTProBoldItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "DidotLTPro-Italic";
+  src: url('../webFonts/DidotLTProItalic/font.woff2') format('woff2'), url('../webFonts/DidotLTProItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "DidotLTPro-Headline";
+  src: url('../webFonts/DidotLTProHeadline/font.woff2') format('woff2'), url('../webFonts/DidotLTProHeadline/font.woff') format('woff');
+}
+@font-face {
+  font-family: "DidotLTPro-Roman";
+  src: url('../webFonts/DidotLTProRoman/font.woff2') format('woff2'), url('../webFonts/DidotLTProRoman/font.woff') format('woff');
+}
+@font-face {
+  font-family: "DidotLTPro-Bold";
+  src: url('../webFonts/DidotLTProBold/font.woff2') format('woff2'), url('../webFonts/DidotLTProBold/font.woff') format('woff');
+}
+

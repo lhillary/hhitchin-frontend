@@ -1,0 +1,96 @@
+html {
+    font-size: 16px;
+
+    body {
+        font-family: 'DidotLTPro-Roman', sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        margin: 0 !important;
+        padding: 0;
+        overflow-x: hidden;
+        transition: 0.5s ease-in background-color;
+        height: 100%;
+
+        @media (max-width: 800px) {
+            font-size: 14px;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'DidotLTPro-Bold', serif;
+            font-weight: 600;
+        }
+
+        .display {
+            font-size: 4rem;
+            font-weight: 900;
+            margin-top: 0;
+
+            @media (max-width: 800px) {
+                font-size: 3em;
+            }
+        }
+
+        .smallcaps {
+            text-transform: uppercase;
+            margin-bottom: 1em;
+            margin-top: 0;
+            font-weight: bold;
+        }
+
+        .highlight {
+            display: inline-block;
+            padding: 0.1em 1em;
+            background-color: #fee428;
+        }
+
+        h1 {
+            font-size: 2.125rem;
+        }
+        
+        h2 {
+            font-size: 1.75rem;
+        }
+        
+        h3 {
+            font-size: 1.5rem;
+        }
+        
+        h4 {
+            font-size: 1.25rem;
+        }
+        
+        h5 {
+            font-size: 1rem;
+        }
+        
+        h6 {
+            font-size: 0.875rem;
+        }
+        
+        a {
+            text-decoration: none;
+            color: #000;
+        }
+        
+        a, p {
+            font-size: 1rem;
+            line-height: 1.75rem;
+        }
+
+        .router-link-exact-active,
+        .router-link-active {
+            text-decoration: none;
+        }
+
+        .special-link {
+            font-size: 20px;
+            font-family: 'DidotLTPro-bold', sans-serif;
+            text-decoration: underline;
+        }
+
+        .exact-active {
+            border-bottom: 3px solid #000;
+            padding-bottom: 3px;
+        }
+    }
+}
