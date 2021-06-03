@@ -1,5 +1,6 @@
 <template>
   <div id="app" class="light">
+  <lh-login-nav></lh-login-nav>
     <lh-navigation></lh-navigation>
     <transition name="slide" mode="out-in">
       <router-view />
@@ -8,10 +9,12 @@
 </template>
 <script>
   import LhNavigation from './components/Navigation';
+  import LhLoginNav from './components/LoginNav'
 
   export default {
     components: {
-      LhNavigation
+      LhNavigation,
+      LhLoginNav
     }
   }
 </script>

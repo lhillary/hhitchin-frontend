@@ -76,10 +76,10 @@
         align-items: center;
         position: absolute;
         width: 100%;
-        padding: 0em 1rem;
+        /*padding: 0em 1rem;*/
 
         @media (max-width: 1024px) {
-            padding: 1em;
+            /*padding: 1em;*/
         }
 
         &.scroll-bg {
@@ -114,27 +114,31 @@
         justify-content: flex-end;
         width: 100%;
 
+        @media (max-width: 900px) {
+            padding: 0.5em 0;
+        }
+
         .lh-nav {
             display: flex;
             width: 100%;
             justify-content: flex-end;
-            padding-right: 1em;
+            /*padding-right: 1em;*/
             align-items: center;
 
             .lh-links {
                 display: flex;
                 flex-wrap: wrap;
                 justify-content: center;
-                padding: 1em 3em;
+                padding: 1em 0;
                 margin-right: 1em;
                 @include border-radius();
 
                 @media (max-width: 1024px) {
-                    padding-right: 1em;
-                    padding-left: 1em;
+                    /*padding-right: 1em;*/
+                    /*padding-left: 1em;*/
                 }
 
-                @media (max-width: 800px) {
+                @media (max-width: 900px) {
                     display: none;
                 }
 
@@ -159,6 +163,7 @@
 
         .lh-mobile-nav {
             display: none;
+            padding-right: 1em;
 
             a {
                 color: var(--background-color);
@@ -172,7 +177,7 @@
                 padding: 0.7em;
             }
 
-            @media(max-width: 800px) {
+            @media(max-width: 900px) {
                 display: block;
             }
         }

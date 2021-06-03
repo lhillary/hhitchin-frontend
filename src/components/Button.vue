@@ -190,6 +190,10 @@
       background-color: transparent;
       color: var(--inline-button-text-color);
 
+      &.color-reverse a {
+        color: $white;
+      }
+
       &:active {
         color: $lightGray;
       }

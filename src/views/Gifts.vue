@@ -14,6 +14,12 @@
   </div>
 </template>
 
+<script>
+  export default {
+    name: 'Gifts'
+  }
+</script>
+
 <style lang="scss" scoped>
 
 @import "../assets/sass/globals.scss";
