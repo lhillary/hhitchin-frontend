@@ -3,8 +3,10 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Gifts from '../views/Gifts.vue'
 import Attire from '../views/Attire.vue'
-// import Attractions from '../views/Attractions.vue'
+import Attractions from '../views/Attractions.vue'
 import Accomodations from '../views/Accomodations.vue'
+import PortAustin from '../views/PortAustin.vue'
+import Caseville from '../views/Caseville.vue'
 
 
 Vue.use(VueRouter)
@@ -25,16 +27,20 @@ const routes = [
     name: 'Attire',
     component: Attire
   },
-  // {
-  //   path: '/attractions',
-  //   name: 'Attractions',
-  //   component: Attractions
-  // },
   {
     path: '/accomodations',
-    name: 'Accomodations',
+    name: 'Stay',
     component: Accomodations
-  }
+  },
+  {
+    path: '/attractions',
+    name: 'Fun Stuff',
+    component: Attractions,
+    children: [
+      { path: '', component: PortAustin },
+      { path: '/attractions/caseville', component: Caseville}
+    ]
+  },
 ]
 
 const router = new VueRouter({

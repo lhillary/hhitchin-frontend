@@ -80,63 +80,68 @@
 .slide-leave-to {
     right: -100vw;
 }
-  
 
-  $lightGray: #f8f8f8;
-  $black: #000;
-  $lessBlack: rgba(0, 0, 0, 0.65);
-  $lessWhite: rgba(255, 255, 255, 0.2);
-  $blue: #41b883;
-  $white: #fff;
-  $formGray: #707070;
-  $yellow: #fee428;
-  
-  $lh-modal-transition-duration: 0.1s;
-  $lh-modal-mask-background: rgba(0, 0, 0, 0.65);
-  $lh-modal-header-height: 56px;
-  $lh-modal-footer-height: 70px;
-  $lh-modal-font-size: 1rem;
-  $lh-modal-header-font-size: 1.25rem;
-  $lh-modal-font-family: 'DidotLTPro-roman', sans-serif;
-  
-  $lh-icon-button-size: 36px;
-  $lh-icon-button-size-small: 32px;
-  $lh-icon-button-size-large: 48px;
+.object-fit_cover { 
+  object-fit: cover;
+}
 
-  $lh-switch-height           : 32px;
-  $lh-switch-thumb-size       : 20px;
-  $lh-switch-thumb-color      : var(--button-background-color);
-  $lh-switch-track-width      : 34px;
-  $lh-switch-track-height     : 24px;
-  $lh-switch-focus-ring-size  : $lh-switch-thumb-size * 2.1;
-  $lh-switch-track-color      : var(--switch-track-color);
-    
-  $z-index-dropdown: 60;
-  $z-index-modal: 9000;
-  
-  @mixin onHoverStandard($color) {
-    background-color: darken($color, 10%);
-  }
-  
-  @mixin onHoverInline($color) {
-    color: darken($color, 10%);
-  }
-  
-  @mixin onHoverLighten($color) {
-    color: lighten($color, 20%);
-  }
-  
-  @mixin border-radius($radius: 50px) {
-    border-radius: $radius;
-  }
+$lightGray: #f8f8f8;
+$black: #000;
+$lessBlack: rgba(0, 0, 0, 0.65);
+$lessWhite: rgba(255, 255, 255, 0.2);
+$blue: #41b883;
+$white: #fff;
+$formGray: #707070;
+$yellow: #fee428;
 
-  @mixin input-border-radius($radius: 0px) {
-    border-radius: $radius;
-  }
+$lh-modal-transition-duration: 0.1s;
+$lh-modal-mask-background: rgba(0, 0, 0, 0.65);
+$lh-modal-header-height: 56px;
+$lh-modal-footer-height: 70px;
+$lh-modal-font-size: 1rem;
+$lh-modal-header-font-size: 1.25rem;
+$lh-modal-font-family: 'DidotLTPro-roman', sans-serif;
+
+$lh-icon-button-size: 36px;
+$lh-icon-button-size-small: 32px;
+$lh-icon-button-size-large: 48px;
+
+$lh-switch-height           : 32px;
+$lh-switch-thumb-size       : 20px;
+$lh-switch-thumb-color      : var(--button-background-color);
+$lh-switch-track-width      : 34px;
+$lh-switch-track-height     : 24px;
+$lh-switch-focus-ring-size  : $lh-switch-thumb-size * 2.1;
+$lh-switch-track-color      : var(--switch-track-color);
   
-  @mixin disabled($opacity: 0.5) {
-    opacity: $opacity;
-    cursor: default;
-    pointer-events: none;
-  }
+$z-index-dropdown: 60;
+$z-index-modal: 9000;
+
+$nav-height: 66px;
+
+@mixin onHoverStandard($color) {
+  background-color: darken($color, 10%);
+}
+
+@mixin onHoverInline($color) {
+  color: darken($color, 10%);
+}
+
+@mixin onHoverLighten($color) {
+  color: lighten($color, 20%);
+}
+
+@mixin border-radius($radius: 50px) {
+  border-radius: $radius;
+}
+
+@mixin input-border-radius($radius: 0px) {
+  border-radius: $radius;
+}
+
+@mixin disabled($opacity: 0.5) {
+  opacity: $opacity;
+  cursor: default;
+  pointer-events: none;
+}
   
