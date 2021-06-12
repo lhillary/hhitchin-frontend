@@ -17,7 +17,7 @@
                     <h3 class="smallcaps highlight">Some Suggestions...</h3>
                 </div>
                 <div class="lh-accomodations-list">
-                    <lh-card v-for="(accom, index) in accomodations" type="accom" :key="index" :title="accom.name" :address="accom.address" :phone="accom.phone" :href="accom.href" :img="accom.img"></lh-card>
+                    <lh-card v-for="(accom, index) in accomodations" type="accom" :key="index" :title="accom.name" :address="accom.address" :phone="accom.phone" :href="accom.href" :img="accom.img" :extra="accom.extra"></lh-card>
                 </div>
             </section>
         </div>
@@ -36,7 +36,8 @@
                         address: '6024 Port Austin Rd, Caseville, MI 48725',
                         phone: '989-856-2650',
                         href: 'http://casevillesunset.com/',
-                        img: require('../assets/img/bella.jpg')
+                        img: require('../assets/img/bella.jpg'),
+                        extra: '(DO NOT STAY IN THE MOTEL SIDE)'
                     },
                     {
                         name: 'Beachcomber Motel & Apartments',

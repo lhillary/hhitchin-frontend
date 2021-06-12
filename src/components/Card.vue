@@ -8,6 +8,7 @@
             <a :href="href" target="_blank">{{ title }}</a>
             <p>{{ address }}</p>
             <p>{{ phone }}</p>
+            <p v-if="extra">{{ extra }}</p>
         </div>
         <div class="lh-card-contents" v-else-if="type === 'attr'">
             <a :href="href" target="_blank">{{ title }}</a>
@@ -43,7 +44,8 @@
                 default: ''
             },
             img: String,
-            list: Array
+            list: Array,
+            extra: String
         }
     }
 </script>

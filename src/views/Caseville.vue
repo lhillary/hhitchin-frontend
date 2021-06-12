@@ -47,9 +47,9 @@
                         href: 'http://keynorthminigolf.com/',
                         img: require('../assets/img/key-north.jpg'),
                         list: [
-                            'Diana spend many summers here as a teenager',
+                            'Diana spent many summers here as a teenager',
                             'Giant slide',
-                            'Mini golf, go karts, & bumber boats',
+                            'Mini golf, go karts, & bumper boats',
                             'Game room & ice cream'
                         ]
                     },

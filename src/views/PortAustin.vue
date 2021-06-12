@@ -63,10 +63,7 @@
                         list: [
                             'Huge grindstone rocks (I promise they\'re interesting)',
                             'Cute general store',
-                            'BIG ice cream cones',
-                            'Sandy Dunes Putt Putt',
-                            'Tip-A-Thumb Canoe & Kayak Rental',
-                            'Pinnebog River access (it goes to the lake)'
+                            'BIG ice cream cones'
                         ]
                     }
                 ]
